@@ -46,7 +46,7 @@ import uvicorn  # ASGI server to run the Starlette app
 mcp = FastMCP("terminal")  # Name of the server for identification purposes
 
 # Default directory where shell commands will run (used in run_command tool)
-DEFAULT_WORKSPACE = os.path.expanduser("~/mcp/workspace")
+DEFAULT_WORKSPACE = os.path.expanduser("~/MCP")
 
 
 # --------------------------------------------------------------------------------------
